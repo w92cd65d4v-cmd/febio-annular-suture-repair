@@ -1,0 +1,11 @@
+node,tangential_mm,radial_mm,axial_z_mm,suture_anchor,used_in_metric
+34817,-0.361,-2.183,-1.128,False,True
+34823,-2.155,-1.481,-1.246,False,True
+37262,-0.303,-2.469,-0.618,False,True
+37263,-0.246,-2.714,-0.055,False,True
+37264,-0.177,-2.909,0.574,False,True
+37268,-2.154,-1.814,-0.738,False,True
+37269,-2.118,-2.079,-0.14,True,False
+37270,-2.05,-2.284,0.535,True,False
+37296,-0.078,-3.049,1.268,False,True
+37300,-1.929,-2.413,1.283,False,True

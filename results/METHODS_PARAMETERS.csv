@@ -1,0 +1,198 @@
+category,name,parameter,value,units,source_file,notes
+material,L4POST,E,3500,MPa,49F_L45_hybrid.feb,neo-Hookean
+material,L4POST,v,0.3,-,49F_L45_hybrid.feb,neo-Hookean
+material,L4POST,density,1,nominal model density unit,49F_L45_hybrid.feb,raw placeholder value; unused in static analysis; not physiological
+material,L5POST,E,3500,MPa,49F_L45_hybrid.feb,neo-Hookean
+material,L5POST,v,0.3,-,49F_L45_hybrid.feb,neo-Hookean
+material,L5POST,density,1,nominal model density unit,49F_L45_hybrid.feb,raw placeholder value; unused in static analysis; not physiological
+material,L4TRAB,E,100,MPa,49F_L45_hybrid.feb,neo-Hookean
+material,L4TRAB,v,0.2,-,49F_L45_hybrid.feb,neo-Hookean
+material,L4TRAB,density,1,nominal model density unit,49F_L45_hybrid.feb,raw placeholder value; unused in static analysis; not physiological
+material,L5TRAB,E,100,MPa,49F_L45_hybrid.feb,neo-Hookean
+material,L5TRAB,v,0.2,-,49F_L45_hybrid.feb,neo-Hookean
+material,L5TRAB,density,1,nominal model density unit,49F_L45_hybrid.feb,raw placeholder value; unused in static analysis; not physiological
+material,L45_LSUP_FC,E,30,MPa,49F_L45_hybrid.feb,neo-Hookean
+material,L45_LSUP_FC,v,0.4,-,49F_L45_hybrid.feb,neo-Hookean
+material,L45_LSUP_FC,density,1,nominal model density unit,49F_L45_hybrid.feb,raw placeholder value; unused in static analysis; not physiological
+material,L45_RSUP_FC,E,30,MPa,49F_L45_hybrid.feb,neo-Hookean
+material,L45_RSUP_FC,v,0.4,-,49F_L45_hybrid.feb,neo-Hookean
+material,L45_RSUP_FC,density,1,nominal model density unit,49F_L45_hybrid.feb,raw placeholder value; unused in static analysis; not physiological
+material,L45_LINF_FC,E,30,MPa,49F_L45_hybrid.feb,neo-Hookean
+material,L45_LINF_FC,v,0.4,-,49F_L45_hybrid.feb,neo-Hookean
+material,L45_LINF_FC,density,1,nominal model density unit,49F_L45_hybrid.feb,raw placeholder value; unused in static analysis; not physiological
+material,L45_RSINF_FC,E,30,MPa,49F_L45_hybrid.feb,neo-Hookean
+material,L45_RSINF_FC,v,0.4,-,49F_L45_hybrid.feb,neo-Hookean
+material,L45_RSINF_FC,density,1,nominal model density unit,49F_L45_hybrid.feb,raw placeholder value; unused in static analysis; not physiological
+material,L4LVEND,E,1000,MPa,49F_L45_hybrid.feb,neo-Hookean
+material,L4LVEND,v,0.3,-,49F_L45_hybrid.feb,neo-Hookean
+material,L4LVEND,density,1,nominal model density unit,49F_L45_hybrid.feb,raw placeholder value; unused in static analysis; not physiological
+material,L5UVEND,E,1000,MPa,49F_L45_hybrid.feb,neo-Hookean
+material,L5UVEND,v,0.3,-,49F_L45_hybrid.feb,neo-Hookean
+material,L5UVEND,density,1,nominal model density unit,49F_L45_hybrid.feb,raw placeholder value; unused in static analysis; not physiological
+material,L4LCEND,E,23.8,MPa,49F_L45_hybrid.feb,neo-Hookean
+material,L4LCEND,v,0.45,-,49F_L45_hybrid.feb,neo-Hookean
+material,L4LCEND,density,1,nominal model density unit,49F_L45_hybrid.feb,raw placeholder value; unused in static analysis; not physiological
+material,L5UCEND,E,23.8,MPa,49F_L45_hybrid.feb,neo-Hookean
+material,L5UCEND,v,0.45,-,49F_L45_hybrid.feb,neo-Hookean
+material,L5UCEND,density,1,nominal model density unit,49F_L45_hybrid.feb,raw placeholder value; unused in static analysis; not physiological
+material,L45NUCLEUS,E,1.0,MPa,49F_L45_hybrid.feb,neo-Hookean
+material,L45NUCLEUS,v,0.49,-,49F_L45_hybrid.feb,neo-Hookean
+material,L45NUCLEUS,density,1,nominal model density unit,49F_L45_hybrid.feb,raw placeholder value; unused in static analysis; not physiological
+material,L4CORT,E1,8000,MPa,49F_L45_hybrid.feb,orthotropic elastic
+material,L4CORT,E2,8000,MPa,49F_L45_hybrid.feb,orthotropic elastic
+material,L4CORT,E3,12000,MPa,49F_L45_hybrid.feb,orthotropic elastic
+material,L4CORT,G12,2857,MPa,49F_L45_hybrid.feb,orthotropic elastic
+material,L4CORT,G23,3677,MPa,49F_L45_hybrid.feb,orthotropic elastic
+material,L4CORT,G31,4444,MPa,49F_L45_hybrid.feb,orthotropic elastic
+material,L4CORT,v12,0.4,-,49F_L45_hybrid.feb,orthotropic elastic
+material,L4CORT,v23,0.3,-,49F_L45_hybrid.feb,orthotropic elastic
+material,L4CORT,v31,0.35,-,49F_L45_hybrid.feb,orthotropic elastic
+material,L5CORT,E1,8000,MPa,49F_L45_hybrid.feb,orthotropic elastic
+material,L5CORT,E2,8000,MPa,49F_L45_hybrid.feb,orthotropic elastic
+material,L5CORT,E3,12000,MPa,49F_L45_hybrid.feb,orthotropic elastic
+material,L5CORT,G12,2857,MPa,49F_L45_hybrid.feb,orthotropic elastic
+material,L5CORT,G23,3677,MPa,49F_L45_hybrid.feb,orthotropic elastic
+material,L5CORT,G31,4444,MPa,49F_L45_hybrid.feb,orthotropic elastic
+material,L5CORT,v12,0.4,-,49F_L45_hybrid.feb,orthotropic elastic
+material,L5CORT,v23,0.3,-,49F_L45_hybrid.feb,orthotropic elastic
+material,L5CORT,v31,0.35,-,49F_L45_hybrid.feb,orthotropic elastic
+material,L4UVEND,type,rigid body,-,49F_L45_hybrid.feb,superior loaded endplate (mat 11)
+material,L5LVEND,type,rigid body,-,49F_L45_hybrid.feb,inferior fixed endplate (mat 14)
+material,annulus_lamella_x20,ground,Holmes-Mow,-,49F_L45_hybrid.feb,solid mixture; 20 lamellae = 4 quadrants x 5 layers
+material,annulus_lamella_x20,HM_E,1.0,MPa,49F_L45_hybrid.feb,fiber-exp-pow x2 (+/-45 deg)
+material,annulus_lamella_x20,HM_v,0.4,-,49F_L45_hybrid.feb,fiber-exp-pow x2 (+/-45 deg)
+material,annulus_lamella_x20,HM_beta,3.4,-,49F_L45_hybrid.feb,fiber-exp-pow x2 (+/-45 deg)
+material,annulus_lamella_x20,fiber_alpha,65,-,49F_L45_hybrid.feb,fiber-exp-pow x2 (+/-45 deg)
+material,annulus_lamella_x20,fiber_beta,2,-,49F_L45_hybrid.feb,fiber-exp-pow x2 (+/-45 deg)
+material,annulus_lamella_x20,fiber_ksi,0.296,MPa,49F_L45_hybrid.feb,fiber-exp-pow x2 (+/-45 deg)
+material,annulus_lamella_x20,fiber_phi_1,45,deg,49F_L45_hybrid.feb,fiber-exp-pow x2 (+/-45 deg)
+material,annulus_lamella_x20,fiber_phi_2,135,deg,49F_L45_hybrid.feb,fiber-exp-pow x2 (+/-45 deg)
+material,annulus_ANT_POST_lamellae,mat_axis,"1,2,4",-,49F_L45_hybrid.feb,"10 mats: ids 18-22 (ANT),28-32 (POST)"
+material,annulus_L_R_lamellae,mat_axis,"1,4,2",-,49F_L45_hybrid.feb,"10 mats: ids 23-27 (L),33-37 (R)"
+material,annulus_lamella_x20,radial_order,LAM1=outer..LAM5=inner,-,this audit,POST_LAM1 r~14.8mm -> LAM5 r~10.9mm
+ligament,ITL,type,nonlinear spring,-,49F_L45_hybrid.feb,tabulated force-elongation lc3
+ligament,ITL,force_scale,0.2,-,49F_L45_hybrid.feb,load curve 3
+ligament,ALL,type,nonlinear spring,-,49F_L45_hybrid.feb,tabulated force-elongation lc4
+ligament,ALL,force_scale,0.44,-,49F_L45_hybrid.feb,load curve 4
+ligament,ISL,type,nonlinear spring,-,49F_L45_hybrid.feb,tabulated force-elongation lc5
+ligament,ISL,force_scale,0.16,-,49F_L45_hybrid.feb,load curve 5
+ligament,SSL,type,nonlinear spring,-,49F_L45_hybrid.feb,tabulated force-elongation lc6
+ligament,SSL,force_scale,0.16,-,49F_L45_hybrid.feb,load curve 6
+ligament,CAPS,type,nonlinear spring,-,49F_L45_hybrid.feb,tabulated force-elongation lc7
+ligament,CAPS,force_scale,1.0,-,49F_L45_hybrid.feb,load curve 7
+ligament,PLL,type,nonlinear spring,-,49F_L45_hybrid.feb,tabulated force-elongation lc8
+ligament,PLL,force_scale,1.0,-,49F_L45_hybrid.feb,load curve 8
+ligament,LF,type,nonlinear spring,-,49F_L45_hybrid.feb,tabulated force-elongation lc9
+ligament,LF,force_scale,1.0,-,49F_L45_hybrid.feb,load curve 9
+loading,ROM,moment,7500,N*mm,convert.py,"7.5 N*m about Rx/Ry/Rz +/- , lc2"
+loading,pure_compression,axial_force,-2000,N,make_compression.py,"force z lc2; fix x,y,Rx,Ry,Rz"
+loading,flex_compression,axial_force,-2000,N,make_compression.py,"fix x,y,Ry,Rz"
+loading,flex_compression,flexion_moment,7500,N*mm,make_compression.py,"moment Rx lc2 (z,Rx free)"
+loading,inferior_endplate,fixed_dof,"x,y,z,Rx,Ry,Rz",-,49F_L45_hybrid.feb,mat 14 fully fixed
+loading,force_schedule,F(t),2000*(t-1)/9,N,path_metrics.py,"t in [1,10]; linear lc2"
+defect,posterolateral_left_annulotomy,n_elements,18,-,make_defect.py / this audit,hex8 deleted
+defect,posterolateral_left_annulotomy,height,3.99,mm,make_defect.py / this audit,z extent
+defect,posterolateral_left_annulotomy,circumf_width,4.79,mm,make_defect.py / this audit,tangential
+defect,posterolateral_left_annulotomy,radial_depth,6.55,mm,make_defect.py / this audit,"full thickness, 5 lamellae"
+defect,posterolateral_left_annulotomy,x_extent_raw,3.22,mm,make_defect.py / this audit,cartesian dx (script docstring value)
+repair,suture_bridge,type,nonlinear spring tension-only,-,make_suture.py,"dmat8, lc10"
+repair,suture_bridge,stiffness_base,50,N/mm,make_suture.py,sweep 10/200
+repair,suture_bridge,pretension_baseline,0,N,make_suture.py,"curve through (0,0)"
+repair,suture_pretension_variant,preload,10,N,analyze_pretension.py,0.2 mm shortened rest length
+solver,control,analysis,static,-,comp_intact_pure.feb,
+solver,control,time_steps,100,-,comp_intact_pure.feb,
+solver,control,step_size,0.1,-,comp_intact_pure.feb,
+solver,control,max_refs,25,-,comp_intact_pure.feb,
+solver,control,max_ups,20,-,comp_intact_pure.feb,
+solver,control,dtol,0.001,-,comp_intact_pure.feb,
+solver,control,etol,0.01,-,comp_intact_pure.feb,
+solver,control,rtol,0,-,comp_intact_pure.feb,
+solver,control,lstol,0.9,-,comp_intact_pure.feb,
+solver,control,dtmin,0.01,-,comp_intact_pure.feb,
+solver,control,dtmax,0.1,-,comp_intact_pure.feb,
+solver,control,max_retries,10,-,comp_intact_pure.feb,
+solver,control,opt_iter,100,-,comp_intact_pure.feb,
+solver,contact,type,sliding-facet-on-facet,-,convert.py,"2 facet pairs; laugon,two_pass,auto_penalty"
+model,counts,nodes,38566,-,49F_L45_hybrid.log,
+model,counts,solid_elements_intact,33532,-,49F_L45_hybrid.log,
+model,counts,solid_elements_defect,33514,-,49F_L45_hybrid.log,
+model,counts,equations,110508,-,49F_L45_hybrid.log,
+model,counts,materials,44,-,49F_L45_hybrid.log,
+model,counts,solid_materials,37,-,49F_L45_hybrid.log,
+model,counts,ligament_springs,7,-,49F_L45_hybrid.log,
+model,counts,annulus_lamellae,20,-,49F_L45_hybrid.log,
+provenance,model,specimen,49F L4-L5,-,VALIDATION_REPORT.md,49-y-o female
+provenance,model,febio_spec,2.5,-,49F_L45_hybrid.feb,run on FEBio 4.12 after convert.py
+provenance,runs,normal_termination,46/46,-,.console files,0 errors
+apposed,morph,kernel,Gaussian diff exp(-(r/sigma)^2),-,make_apposed3_levels.py / analyze_levels3.py (cc01),difference of two anchor Gaussians (self-balancing)
+apposed,morph,sigma,2.2,mm,make_apposed3_levels.py / analyze_levels3.py (cc01),influence/kernel width
+apposed,morph,MAXR,6.0,mm,make_apposed3_levels.py / analyze_levels3.py (cc01),node affected if within MAXR of any anchor
+apposed,morph,amplitude,scale*L/2,-,make_apposed3_levels.py / analyze_levels3.py (cc01),L=initial pair length; scale swept in 0.005 steps
+apposed,morph,stress_free_reset,rewrite nodal rest coords,-,make_apposed3_levels.py / analyze_levels3.py (cc01),no prestrain/initial stress added
+apposed,morph,residual_gap,||(a+u_a)-(b+u_b)||,mm,make_apposed3_levels.py / analyze_levels3.py (cc01),per pair; mean over 3 pairs = closure degree
+apposed,morph,mesh_quality,min scaled Jacobian,-,make_apposed3_levels.py / analyze_levels3.py (cc01),det(J)/(|Jr0||Jr1||Jr2|) at 8 corners
+apposed,morph,posAUC,"trapz max(p,0) dF",mm*N,make_apposed3_levels.py / analyze_levels3.py (cc01),positive-only AUC; restoration=100*(def-rep)/(def-int)
+apposed,model_app17,mean_residual_gap,1.69,mm,make_apposed3_levels.py / analyze_levels3.py (cc01),target 1.7
+apposed,model_app17,min_scaled_jac,0.2196,-,make_apposed3_levels.py / analyze_levels3.py (cc01),#sJ<0.2=0
+apposed,model_app17,peak_protrusion_pure,0.194,mm,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app17,posAUC_pure,235.4,mm*N,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app17,rimVM_pure,5.63,MPa,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app17,peak_protrusion_flex,0.204,mm,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app17,posAUC_flex,305.5,mm*N,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app17,rimVM_flex,4.34,MPa,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app15,mean_residual_gap,1.485,mm,make_apposed3_levels.py / analyze_levels3.py (cc01),target 1.5
+apposed,model_app15,min_scaled_jac,0.2196,-,make_apposed3_levels.py / analyze_levels3.py (cc01),#sJ<0.2=0
+apposed,model_app15,peak_protrusion_pure,0.176,mm,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app15,posAUC_pure,203.1,mm*N,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app15,rimVM_pure,5.69,MPa,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app15,peak_protrusion_flex,0.178,mm,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app15,posAUC_flex,264.8,mm*N,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app15,rimVM_flex,4.44,MPa,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app12,mean_residual_gap,1.186,mm,make_apposed3_levels.py / analyze_levels3.py (cc01),target 1.2
+apposed,model_app12,min_scaled_jac,0.2196,-,make_apposed3_levels.py / analyze_levels3.py (cc01),#sJ<0.2=0
+apposed,model_app12,peak_protrusion_pure,0.15,mm,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app12,posAUC_pure,155.6,mm*N,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app12,rimVM_pure,5.3,MPa,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app12,peak_protrusion_flex,0.134,mm,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app12,posAUC_flex,195.3,mm*N,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app12,rimVM_flex,4.48,MPa,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app10b,mean_residual_gap,0.982,mm,make_apposed3_levels.py / analyze_levels3.py (cc01),target 1.0
+apposed,model_app10b,min_scaled_jac,0.2196,-,make_apposed3_levels.py / analyze_levels3.py (cc01),#sJ<0.2=0
+apposed,model_app10b,peak_protrusion_pure,0.132,mm,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app10b,posAUC_pure,125.9,mm*N,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app10b,rimVM_pure,5.07,MPa,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app10b,peak_protrusion_flex,0.107,mm,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app10b,posAUC_flex,150.0,mm*N,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app10b,rimVM_flex,4.43,MPa,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app08,mean_residual_gap,0.796,mm,make_apposed3_levels.py / analyze_levels3.py (cc01),target 0.8
+apposed,model_app08,min_scaled_jac,0.2196,-,make_apposed3_levels.py / analyze_levels3.py (cc01),#sJ<0.2=0
+apposed,model_app08,peak_protrusion_pure,0.117,mm,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app08,posAUC_pure,101.7,mm*N,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app08,rimVM_pure,4.79,MPa,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app08,peak_protrusion_flex,0.087,mm,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app08,posAUC_flex,109.5,mm*N,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app08,rimVM_flex,4.33,MPa,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app06,mean_residual_gap,0.591,mm,make_apposed3_levels.py / analyze_levels3.py (cc01),target 0.6
+apposed,model_app06,min_scaled_jac,0.0359,-,make_apposed3_levels.py / analyze_levels3.py (cc01),#sJ<0.2=5
+apposed,model_app06,peak_protrusion_pure,0.101,mm,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app06,posAUC_pure,78.5,mm*N,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app06,rimVM_pure,5.58,MPa,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app06,peak_protrusion_flex,0.067,mm,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app06,posAUC_flex,72.2,mm*N,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app06,rimVM_flex,4.08,MPa,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_near,mean_residual_gap,0.628,mm,make_apposed3_levels.py / analyze_levels3.py (cc01),target -
+apposed,model_near,min_scaled_jac,0.072,-,make_apposed3_levels.py / analyze_levels3.py (cc01),#sJ<0.2=4
+apposed,model_near,peak_protrusion_pure,0.104,mm,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_near,posAUC_pure,82.5,mm*N,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_near,rimVM_pure,5.37,MPa,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_near,peak_protrusion_flex,0.07,mm,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_near,posAUC_flex,78.3,mm*N,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_near,rimVM_flex,4.13,MPa,make_apposed3_levels.py / analyze_levels3.py (cc01),
+apposed,model_app12,selection,post-hoc representative (intermediate apposition),-,make_apposed3_levels.py / analyze_levels3.py (cc01),auto-selector returned None (all apposed have negative pure endpoint); NOT optimal/automatic/physiological; dose-response is primary evidence
+apposed,runs,apposed_normal_termination,14/14,-,make_apposed3_levels.py / analyze_levels3.py (cc01),6 levels x2 + near x2; app12_pure console verified
+apposed,model_app12,pair_gaps,0.849/0.905/1.805,mm,apposed3_levels_quality.json,non-uniform; partial edge apposition (not complete/uniform closure)
+load,disc_preload,description,1-MPa follower-pressure preload (provisional),MPa,49F_L45_hybrid.feb,"model-prescribed, inherited from source; lc1 ramp phase1, held phase2"
+load,PressureLoad01,adjacent_domain,NUCLEUS<->POST_LAM5/R_LAM5 (innermost annulus),-,this audit (face match),nucleus-annulus interface post/right; 96 faces; sign -1; normals outward
+load,PressureLoad02,adjacent_domain,NUCLEUS<->L4LCEND/L5UCEND + ANT_LAM5/L_LAM5,-,this audit (face match),nucleus-endplate + nucleus-annulus interface; 608 faces; sign +1; normals inward
+load,disc_preload,net_effect,expansive nucleus-boundary pressurisation,-,this audit,both surfaces push nucleus boundary outward; physiological justification unverified
+units,system,mass_unit,not manuscript-facing,-,this audit,"mm-N-MPa implies tonne, but density=1 is a raw placeholder; not physiological; omit from manuscript unit list"

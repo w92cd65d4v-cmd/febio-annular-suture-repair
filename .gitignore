@@ -1,0 +1,12 @@
+# Source model and all derived finite element files are not redistributed (see README, section 1)
+FBSRepo_User Projects_FEBio FEMs Human Lumbar Spine/*.feb
+FBSRepo_User Projects_FEBio FEMs Human Lumbar Spine/*.zip
+*.feb
+*.log
+*.xplt
+*.out
+*.dmp
+nas_copy/
+__pycache__/
+*.pyc
+.DS_Store
