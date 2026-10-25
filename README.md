@@ -6,7 +6,7 @@ Scripts and result tables for:
 
 The study modifies a public FEBio model of the human L4–L5 functional spinal unit. It creates a posterolateral full-thickness annular defect, adds suture repairs, and compares contained nucleus pulposus (NP) protrusion and annular-rim stress under axial compression with and without flexion.
 
-**The source model is not included in this repository.** It is distributed by its original authors (see below). This repository contains only our own material:
+**To avoid copyright concerns, the original source model is not distributed in this repository.** Users may obtain it from the external download link given in section 1. This repository contains only our own material:
 
 - the Python scripts that modify the source model and analyze the results;
 - small data files that list node and element ID numbers (no model geometry);
@@ -18,14 +18,16 @@ No finite element input files (`.feb`), solver logs (`.log`), or result files (`
 
 Finley SM, Brodke DS, Spina NT, DeDen CA, Ellis BJ (2018). FEBio finite element models of the human lumbar spine. *Computer Methods in Biomechanics and Biomedical Engineering* 21, 444–452. doi:10.1080/10255842.2018.1478967
 
-- Download page: SimTK project **febiolumbar**, <https://simtk.org/projects/febiolumbar> (file `49F.zip`, 49-year-old female specimen). Please follow the use agreement and citation request on that page.
+- Download: FEBio model repository, <https://repo.febio.org/modelRepo/api/v1.05/files/0/57> (file `FBSRepo_User Projects_FEBio FEMs Human Lumbar Spine.zip`). The same models are described on the authors' SimTK project page, <https://simtk.org/projects/febiolumbar>. Please follow the terms of use and the citation request of the source.
 - FEBio: <https://febio.org>
 
-We used the L4–L5 segment file `49F_L45_hybrid.feb` (FEBio specification 2.5). Place it in the folder
+We used the L4–L5 segment file `49F_L45_hybrid.feb` (FEBio specification 2.5) of the 49-year-old female specimen. The zip file contains the model files without an enclosing folder. Extract it into the folder
 
 ```
-FBSRepo_User Projects_FEBio FEMs Human Lumbar Spine/49F_L45_hybrid.feb
+FBSRepo_User Projects_FEBio FEMs Human Lumbar Spine/
 ```
+
+so that the scripts find `FBSRepo_User Projects_FEBio FEMs Human Lumbar Spine/49F_L45_hybrid.feb`.
 
 The file we used has this SHA-256 checksum:
 
@@ -109,4 +111,4 @@ Maas SA, Ellis BJ, Ateshian GA, Weiss JA (2012). FEBio: finite elements for biom
 
 - Code: MIT License (`LICENSE`).
 - Result tables in `results/` and the data files: Creative Commons Attribution 4.0 (`LICENSE-DATA.md`).
-- These licenses cover only the material in this repository. The source model remains under the terms set by its authors on SimTK.
+- These licenses cover only the material in this repository. The source model remains under the terms set by its authors.

@@ -8,4 +8,4 @@ You may share and adapt them for any purpose, provided that you give appropriate
 listed in `README.md`.
 
 This license does not apply to the source finite element model (Finley et al., 2018), which is not included in
-this repository and remains under the terms set by its authors on SimTK (https://simtk.org/projects/febiolumbar).
+this repository and remains under the terms set by its authors (download: https://repo.febio.org/modelRepo/api/v1.05/files/0/57).
