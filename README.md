@@ -1,5 +1,7 @@
 # febio-annular-suture-repair
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23698082.svg)](https://doi.org/10.5281/zenodo.23698082)
+
 Scripts and result tables for:
 
 > Li G-S, Chen G-C, Tu W-T, Zhang Z-P, Song E, Zhou J-J. *Biomechanical determinants of annular suture repair in an idealized post-discectomy annular defect: a finite element study.* Frontiers in Bioengineering and Biotechnology (under review).
@@ -103,9 +105,16 @@ Metrics of the force-based apposition runs are computed with `revision_tighten_m
 - `make_suture.py` and `make_sweep.py` were reconstructed during the project from the model files they had produced; their headers say so.
 - `make_manuscript_figs.py`, `make_results_figs.py`, and `make_whole_fsu_stress_view.py` first look for the apposition-series logs in a network folder used during the project and otherwise read them from `nas_copy/`.
 
-## 8. Citation and license
+## 8. Archived version
 
-If you use this material, please cite the paper above, the source model (Finley et al., 2018), and FEBio:
+Version 1.0 of this repository, the version cited in the paper, is archived on Zenodo:
+
+- Version 1.0: <https://doi.org/10.5281/zenodo.23698082>
+- All versions (concept DOI, always resolves to the latest version): <https://doi.org/10.5281/zenodo.23698081>
+
+## 9. Citation and license
+
+If you use this material, please cite the paper above, this archive (doi:10.5281/zenodo.23698082), the source model (Finley et al., 2018), and FEBio:
 
 Maas SA, Ellis BJ, Ateshian GA, Weiss JA (2012). FEBio: finite elements for biomechanics. *Journal of Biomechanical Engineering* 134, 011005. doi:10.1115/1.4005694
 
